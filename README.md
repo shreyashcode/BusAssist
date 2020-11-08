@@ -6,8 +6,10 @@ This app is the solution to improve the efficiency of public transport. The main
 Suppose the passenger needs to travel from A to B. Then he/she would get the estimated time that bus would take to arrive at A. Thus improving the efficiency of public transport.
 <i float = "left">
   <div class="img">
-<img src = "app/pic1" width="191"/>
-<img src = "app/pic2" width = "191"/>
-<img src = "app/pic3" width = "191"/>
+<img src = "app/pic1.jpg" width="191"/>
+<img src = "app/pic2.jpg" width = "191"/>
+<img src = "app/pic3.jpg" width = "191"/>
+<img src = "app/pic4.jpg" width = "191"/>
+<img src = "app/pic5.jpg" width = "191"/>
 </i>
 </div>
