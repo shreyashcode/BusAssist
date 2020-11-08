@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    tools:context=".DriversActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="33dp"
+            android:layout_marginBottom="33dp"
+            android:id="@+id/text"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select stops"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/spinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="187dp" />
+
+        <Spinner
+            android:id="@+id/spinnerIn"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerDestination"
+            app:layout_constraintTop_toBottomOf="@+id/spinner"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDestination"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner"
+            app:layout_constraintVertical_bias="0.258"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDestinationD"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner"
+            app:layout_constraintVertical_bias="0.258"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDestinationE"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner"
+            app:layout_constraintVertical_bias="0.258"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Spinner
+            android:id="@+id/spinnerDestinationF"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner"
+            app:layout_constraintVertical_bias="0.258"
+            tools:layout_editor_absoluteX="0dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/passenger"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="39dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/continue_1" />-->
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/continue_1"
+            android:text="Continue"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_width="369dp"
+            android:layout_height="69dp"
+            android:background="#15D5BF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerDestination" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

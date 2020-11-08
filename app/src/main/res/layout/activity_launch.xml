@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Launch">
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@drawable/pic_1"
+        app:layout_constraintBottom_toTopOf="@+id/ds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/ds"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
+        android:text="Driver's section"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toTopOf="@+id/ps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <Button
+        android:id="@+id/ps"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
+        android:textColor="@color/cardview_dark_background"
+        android:text="Passenger's section"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <Button
+        android:id="@+id/credits"
+        android:layout_width="210dp"
+        android:layout_height="69dp"
+        android:text="Credits"
+        android:textColor="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ps"
+        app:layout_constraintVertical_bias="0.169" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

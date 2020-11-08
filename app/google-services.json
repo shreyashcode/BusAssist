@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122782978970",
+    "firebase_url": "https://hackandroidians.firebaseio.com",
+    "project_id": "hackandroidians",
+    "storage_bucket": "hackandroidians.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122782978970:android:00ce6c60a56a9a4d096023",
+        "android_client_info": {
+          "package_name": "com.example.hackandroidians"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122782978970-vv3j5g1rj58l34kfd9hm5cb36sf452ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuDT6q1PCgtPTCz5lTFzx5Sx11jfsDghI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122782978970-vv3j5g1rj58l34kfd9hm5cb36sf452ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
